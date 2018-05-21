@@ -8,7 +8,7 @@ const Homepage = () => {
             <div class="outter">
                 <Grid fluid={true} className="topBorder">
                     <Row className="navbar">
-                        <Col xs={12} sm={4} md={4} lg={3}>
+                        <Col xs={12} sm={4} md={4} lg={2}>
                             <div className="navbar-title">
                                 Nick Paridon
                             </div>
