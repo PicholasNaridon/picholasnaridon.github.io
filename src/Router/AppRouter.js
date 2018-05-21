@@ -4,6 +4,7 @@ import Board from '../Hangman/Board'
 import Portfolio from '../Portfolio/Portfolio'
 import Homepage from '../Homepage/Homepage'
 import Contact from '../Contact/Contact'
+import StarWars from '../StarWars/StarWars'
 
 const AppRouter = () => (
   <Router>
@@ -12,6 +13,8 @@ const AppRouter = () => (
           <Route path="/Contact" component={Contact} />
           <Route path="/Portfolio" component={Portfolio} />
           <Route path="/Hangman" component={Board} />
+          <Route path="/StarWars" component={StarWars} />
+
       </div>
   </Router>
 );
