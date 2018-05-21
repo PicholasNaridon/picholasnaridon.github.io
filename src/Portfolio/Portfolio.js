@@ -39,14 +39,14 @@ const Portfolio = () => {
                         <Col xs={12} lg={6} md={6} sm={12}>
                             <Link to="/Hangman" className="project-link">
                                 <img className="portfolio-picture" src={ require('../assets/images/hangman.png') } />
-                                <div className="project-overlay">Hangman</div>
+                                <div className="project-overlay">Hangman (React)</div>
                             </Link>
                         </Col>
                         <Col xs={12} lg={6} md={6} sm={12}>
-                            <Link to="/Hangman" className="project-link">
-                                <img className="portfolio-picture" src={ require('../assets/images/300x300.png') } />
-                                <div className="project-overlay">Placeholder</div>
-                            </Link>
+                            <a href="https://hsdeckbuilder.herokuapp.com" className="project-link">
+                                <img className="portfolio-picture" src={ require('../assets/images/hearthstone.png') } />
+                                <div className="project-overlay">Hearthstone (Ruby on Rails)</div>
+                            </a>
                         </Col>
                     </Row>
                     <Row className="show-grid">
