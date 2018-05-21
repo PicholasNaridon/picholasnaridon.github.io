@@ -4,7 +4,7 @@ class Board extends Component {
     render() {
         return (
             <div>
-                Star Wars Board
+                Star Wars Board!
             </div>
         );
     }
