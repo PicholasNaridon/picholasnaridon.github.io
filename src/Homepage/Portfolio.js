@@ -38,13 +38,13 @@ const Portfolio = () => {
                     <Row className="show-grid">
                         <Col xs={12} lg={6} md={6} sm={12}>
                             <Link to="/Hangman" className="project-link">
-                                <img className="portfolio-picture" src={ require('../assets/images/hangman.png') } />
+                                <img className="portfolio-picture" src={ require('./assets/images/hangman.png') } />
                                 <div className="project-overlay">Hangman (React)</div>
                             </Link>
                         </Col>
                         <Col xs={12} lg={6} md={6} sm={12}>
                             <a href="https://hsdeckbuilder.herokuapp.com" className="project-link">
-                                <img className="portfolio-picture" src={ require('../assets/images/hearthstone.png') } />
+                                <img className="portfolio-picture" src={ require('./assets/images/hearthstone.png') } />
                                 <div className="project-overlay">Hearthstone (Ruby on Rails)</div>
                             </a>
                         </Col>
@@ -52,13 +52,13 @@ const Portfolio = () => {
                     <Row className="show-grid">
                         <Col xs={12} lg={6} md={6} sm={12}>
                             <Link to="/Starwars" className="project-link">
-                                <img className="portfolio-picture" src={ require('../assets/images/300x300.png') } />
+                                <img className="portfolio-picture" src={ require('./assets/images/300x300.png') } />
                                 <div className="project-overlay">StarWars</div>
                             </Link>
                         </Col>
                         <Col xs={12} lg={6} md={6} sm={12}>
                             <Link to="/Hangman" className="project-link">
-                                <img className="portfolio-picture" src={ require('../assets/images/300x300.png') } />
+                                <img className="portfolio-picture" src={ require('./assets/images/300x300.png') } />
                                 <div className="project-overlay">Placeholder</div>
                             </Link>
                         </Col>
@@ -66,7 +66,7 @@ const Portfolio = () => {
                     <Row className="show-grid">
                         <Col xs={12} lg={6} md={6} sm={12} >
                             <Link to="/Hangman" className="project-link">
-                                <img className="portfolio-picture" src={ require('../assets/images/300x300.png') } />
+                                <img className="portfolio-picture" src={ require('./assets/images/300x300.png') } />
                                 <div className="project-overlay">Placeholder</div>
                             </Link>
                         </Col>

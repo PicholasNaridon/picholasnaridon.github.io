@@ -44,7 +44,7 @@ const Homepage = () => {
                         <Row style={{justifyContent: "center"}}>
                             <Col lg={10} md={10} sm={10} xs={12}>
                                 <div className="img-responsive">
-                                    <img className="myPicture" src={ require('../assets/images/me.png') } />
+                                    <img className="myPicture" src={ require('./assets/images/me.png') } />
                                 </div>
                                 <div className="text">
                                     <p>Hey everyone! My name is Nick, I am an engineer working and living in Philadelphia. </p>
