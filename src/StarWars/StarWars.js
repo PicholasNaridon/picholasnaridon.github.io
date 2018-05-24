@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import StarWars from './Components/StarWars'
+import charData from './assets/data.js'
 
-class Board extends Component {
-    render() {
-        return (
-            <div>
-                Star Wars Board!
-            </div>
-        );
-    }
+class App extends Component {
+
+  render() {
+    return (
+        <StarWars data={charData} />
+    );
+  }
 }
 
-export default Board;
+export default App;

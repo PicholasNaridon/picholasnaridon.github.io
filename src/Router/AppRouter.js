@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Board from '../Hangman/Board'
-import Portfolio from '../Portfolio/Portfolio'
+import Portfolio from '../Homepage/Portfolio'
 import Homepage from '../Homepage/Homepage'
-import Contact from '../Contact/Contact'
+import Contact from '../Homepage/Contact'
 import StarWars from '../StarWars/StarWars'
 
 const AppRouter = () => (
