@@ -14,7 +14,6 @@ const AppRouter = () => (
           <Route path="/Portfolio" component={Portfolio} />
           <Route path="/Hangman" component={Board} />
           <Route path="/StarWars" component={StarWars} />
-
       </div>
   </Router>
 );
