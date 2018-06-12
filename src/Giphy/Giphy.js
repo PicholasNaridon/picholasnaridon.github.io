@@ -59,7 +59,7 @@ class Giphy extends Component {
                 </ButtonToolbar>
                 <Grid style={{marginTop: "5%"}}>
                     <Row className="show-grid">
-                            <Col md={9} mdPull={5}>
+                            <Col md={9}>
                                 <Grid>
                                 {this.state.gifs.map((gif) =>
                                     <Col md={6}>
