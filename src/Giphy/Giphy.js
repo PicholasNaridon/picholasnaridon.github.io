@@ -17,7 +17,7 @@ class Giphy extends Component {
     }
 
     selectWord(word){
-        fetch(`http://api.giphy.com/v1/gifs/search?q=${word}&api_key=m1tz9av1s1dwBd9aQJ60i27gyf7qQqJS&limit=10`)
+        fetch(`https://api.giphy.com/v1/gifs/search?q=${word}&api_key=m1tz9av1s1dwBd9aQJ60i27gyf7qQqJS&limit=10`)
             .then(response => 
                 response.json()) 
             .then( (json) => {
