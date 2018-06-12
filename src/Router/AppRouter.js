@@ -5,6 +5,7 @@ import Portfolio from '../Homepage/Portfolio'
 import Homepage from '../Homepage/Homepage'
 import Contact from '../Homepage/Contact'
 import StarWars from '../StarWars/StarWars'
+import Giphy from '../Giphy/Giphy'
 
 const AppRouter = () => (
   <Router>
@@ -14,6 +15,7 @@ const AppRouter = () => (
           <Route path="/Portfolio" component={Portfolio} />
           <Route path="/Hangman" component={Board} />
           <Route path="/StarWars" component={StarWars} />
+          <Route path="/Giphy" component={Giphy} />
       </div>
   </Router>
 );

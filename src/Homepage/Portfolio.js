@@ -52,14 +52,14 @@ const Portfolio = () => {
                     <Row className="show-grid">
                         <Col xs={12} lg={6} md={6} sm={12}>
                             <Link to="/Starwars" className="project-link">
-                                <img className="portfolio-picture" src={ require('./assets/images/300x300.png') } />
-                                <div className="project-overlay">StarWars</div>
+                                <img className="portfolio-picture" src={ require('./assets/images/starwars.png') } />
+                                <div className="project-overlay">StarWars (React)</div>
                             </Link>
                         </Col>
                         <Col xs={12} lg={6} md={6} sm={12}>
-                            <Link to="/Hangman" className="project-link">
-                                <img className="portfolio-picture" src={ require('./assets/images/300x300.png') } />
-                                <div className="project-overlay">Placeholder</div>
+                            <Link to="/Giphy" className="project-link">
+                                <img className="portfolio-picture" src={ require('./assets/images/giphy.png') } />
+                                <div className="project-overlay">Giphy (React)</div>
                             </Link>
                         </Col>
                     </Row>
