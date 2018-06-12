@@ -50,7 +50,7 @@ const Homepage = () => {
                                     <p>Hey everyone! My name is Nick, I am an engineer working and living in Philadelphia. </p>
                                     <p>This page and the projects linked here were built mainly with React and React Router, with a few Ruby on Rails applications thrown in </p>
                                     <p>In my free time I enjoy being outdoors, hiking, swimming, etc. I am a big fan of traveling as well. Please feel free to poke around. Send me a message! </p>
-                                    <p>Here's some fillter text for the sake of symmetry</p>
+                                    <p>Here's some fillter text for the sake of symmetry!</p>
                                     <p>Fusce at urna convallis, molestie libero a, tempus tortor. Nulla facilisi. Phasellus quam tortor, dapibus vitae arcu nec, venenatis vestibulum libero. Maecenas gravida dolor ut nisi accumsan vestibulum eu laoreet nunc. Phasellus vel nunc posuere, facilisis orci sit amet, feugiat arcu. Maecenas ullamcorper lacus lacus, ut accumsan purus facilisis nec. Nulla egestas eleifend elit, at suscipit orci. Morbi porta facilisis cursus. Vivamus iaculis ante id augue pharetra, at vehicula neque facilisis. Vestibulum nec est nec nunc tempor pulvinar. Vivamus ac sodales tellus. Maecenas quis efficitur nunc, id cursus sem.</p>
                                 </div>
                             </Col>
