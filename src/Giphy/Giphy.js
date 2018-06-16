@@ -15,7 +15,7 @@ class Giphy extends Component {
         this.addWord = this.addWord.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
     }
-
+    
     selectWord(word){
         fetch(`https://api.giphy.com/v1/gifs/search?q=${word}&api_key=m1tz9av1s1dwBd9aQJ60i27gyf7qQqJS&limit=10`)
             .then(response => 
