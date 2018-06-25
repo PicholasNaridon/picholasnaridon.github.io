@@ -65,9 +65,9 @@ const Portfolio = () => {
                     </Row>
                     <Row className="show-grid">
                         <Col xs={12} lg={6} md={6} sm={12} >
-                            <Link to="/Hangman" className="project-link">
-                                <img className="portfolio-picture" src={ require('./assets/images/300x300.png') } />
-                                <div className="project-overlay">Placeholder</div>
+                            <Link to="/rps" className="project-link">
+                                <img className="portfolio-picture" src={ require('./assets/images/rps.png') } />
+                                <div className="project-overlay">Rock Paper Scissors (React and Firebase)</div>
                             </Link>
                         </Col>
                     </Row>

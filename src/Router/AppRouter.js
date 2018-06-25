@@ -6,6 +6,8 @@ import Homepage from '../Homepage/Homepage'
 import Contact from '../Homepage/Contact'
 import StarWars from '../StarWars/StarWars'
 import Giphy from '../Giphy/Giphy'
+import RockPaperScissors from "../RockPaperScissors/RockPaperScissors";
+
 
 const AppRouter = () => (
   <Router>
@@ -16,6 +18,8 @@ const AppRouter = () => (
           <Route path="/Hangman" component={Board} />
           <Route path="/StarWars" component={StarWars} />
           <Route path="/Giphy" component={Giphy} />
+          <Route path="/rps" component={RockPaperScissors} />
+
       </div>
   </Router>
 );

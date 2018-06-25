@@ -108,7 +108,8 @@ class StarWars extends Component {
 
         if (playerHP <= 0){
             this.playerDied()
-        }else if ((playerHP >= 0) && (this.state.enemies.length === 0) && (targetHP <= 0)){
+            // SOMETHING MAY BE WRONG WITH WIN CONDITION
+        }else if ((playerHP >= 0) && (this.state.enemies.length === 0)){
             this.wonGame()
         }else if (this.state.target.HP <= playerAP){
             this.targetDied()
