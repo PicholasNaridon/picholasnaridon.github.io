@@ -112,7 +112,7 @@ class Board extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={6} s={12}>
+                    <Col lg={12} s={12} md={12}>
                         {this.renderOutcome()}
                     </Col>
                 </Row>
