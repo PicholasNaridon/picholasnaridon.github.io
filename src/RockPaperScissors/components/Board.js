@@ -3,6 +3,8 @@ import { base, app } from '../base'
 import PlayerList from './PlayerList'
 import Results from './Results'
 import AddUser from './AddUser'
+import Chat from './Chat'
+
 
 class Board extends Component {
     constructor(){
@@ -15,6 +17,7 @@ class Board extends Component {
         this.addUserHandler = this.addUserHandler.bind(this)
         this.renderPlayersJoining = this.renderPlayersJoining.bind(this)
         this.renderOutcome = this.renderOutcome.bind(this)
+        this.renderChat = this.renderChat.bind(this)
     }
 
     componentDidMount(){
@@ -43,6 +46,14 @@ class Board extends Component {
         base.post(`game/users/${newUserId}`, {
             data: {name: `${newUserName}`, wins: 0, losses: 0, selectionMade: false, id: `${newUserId}`},
           });
+    }
+
+    renderChat(){
+        if (this.state.users.length == 2){
+            return (
+                <Chat users={this.state.users} />
+            )
+        }
     }
 
     renderOutcome(){
@@ -85,6 +96,7 @@ class Board extends Component {
             <div>
                 {this.renderPlayersJoining()}
                 {this.renderOutcome()}
+                {this.renderChat()}
             </div>
         );
     }

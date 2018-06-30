@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { base, app } from '../base'
-import { FormGroup, FormControl, Button} from 'react-bootstrap'
+import { FormGroup, FormControl, Button, Row, Grid, Col, Well} from 'react-bootstrap'
 
 
 class AddUser extends Component {
@@ -28,18 +28,18 @@ class AddUser extends Component {
     }
     render() {
         return (
-            <div>
-                <div className="enter-name">
-                    <h1>Welcome, please enter your name</h1>
-                    <div>
-                        Enter Name:
-                        <FormGroup >
-                            <FormControl type="text" inputRef={ref => { this.input = ref; }}/>
-                            <Button type="submit" bsStyle="primary" onClick={this.addUser.bind(this)}>Submit</Button>
-                        </FormGroup>
-                    </div> 
-                </div>
-            </div>
+            <Grid>
+                <Row>
+                    <Col lgOffset={1} smOffset={1} mdOffset={1} lg={10} sm={10} md={10}>
+                        <Well >
+                            <FormGroup >
+                                <FormControl type="text" placeholder="Enter Name" inputRef={ref => { this.input = ref; }}/>
+                                <Button type="submit" bsStyle="primary" onClick={this.addUser.bind(this)}>Submit</Button>
+                            </FormGroup>
+                        </Well>
+                    </Col> 
+                </Row>
+            </Grid>
         );
     }
 }
