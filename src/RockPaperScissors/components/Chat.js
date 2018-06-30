@@ -37,7 +37,6 @@ class Chat extends Component {
                 <Row>
                     <Col lg={12} sm={12} md={12}>
                         <Well >
-                            <h3>Chat </h3>
                             {this.state.messages.map(function(message){
                                 return (<p key={message.key}>{message.message}</p>)
                             })}

@@ -4,6 +4,8 @@ import PlayerList from './PlayerList'
 import Results from './Results'
 import AddUser from './AddUser'
 import Chat from './Chat'
+import {Row, Grid, Col }  from 'react-bootstrap'
+
 
 
 class Board extends Component {
@@ -93,11 +95,28 @@ class Board extends Component {
 
     render() {
         return (
-            <div>
-                {this.renderPlayersJoining()}
-                {this.renderOutcome()}
-                {this.renderChat()}
-            </div>
+            <Grid>
+                <Row>
+                    <Col lg={12} s={12} md={12}>
+                        <h1 className="game-messaging"> Rock Paper Scissors! </h1>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={6} s={12}>
+                        {this.renderPlayersJoining()}
+                    </Col>
+                    <Col lg={6} s={12}>
+                        <h1 className="game-messaging">Messages</h1>
+
+                        {this.renderChat()}
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={6} s={12}>
+                        {this.renderOutcome()}
+                    </Col>
+                </Row>
+            </Grid>
         );
     }
 }

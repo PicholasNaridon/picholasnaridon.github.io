@@ -141,7 +141,7 @@ class Results extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="game-messaging">
                 <h1>The Results Are In!</h1>
                 <div>{this.state.message}</div>
             </div>
