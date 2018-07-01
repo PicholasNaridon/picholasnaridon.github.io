@@ -107,7 +107,6 @@ class Board extends Component {
                     </Col>
                     <Col lg={6} s={12}>
                         <h1 className="game-messaging">Messages</h1>
-
                         {this.renderChat()}
                     </Col>
                 </Row>

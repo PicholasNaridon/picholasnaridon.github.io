@@ -36,7 +36,7 @@ class Chat extends Component {
             <Grid>
                 <Row>
                     <Col lg={12} sm={12} md={12}>
-                        <Well >
+                        <Well>
                             {this.state.messages.map(function(message){
                                 return (<p key={message.key}>{message.message}</p>)
                             })}
@@ -45,8 +45,8 @@ class Chat extends Component {
                 </Row>
                 <Row>
                     <Col lgOffset={1} smOffset={1} mdOffset={1} lg={10} sm={10} md={10}>
-                        <Well >
-                            <FormGroup >
+                        <Well>
+                            <FormGroup>
                                 <FormControl type="text" placeholder="Enter Message" inputRef={ref => { this.input = ref; }}/>
                                 <Button type="submit" bsStyle="primary" onClick={this.addMessage.bind(this)}>Submit</Button>
                             </FormGroup>
