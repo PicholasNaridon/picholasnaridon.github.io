@@ -1,1 +1,0 @@
-# picholasnaridon.github.io
