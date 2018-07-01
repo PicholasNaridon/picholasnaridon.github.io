@@ -7,7 +7,6 @@ import Chat from './Chat'
 import {Row, Grid, Col }  from 'react-bootstrap'
 
 
-
 class Board extends Component {
     constructor(){
         super()

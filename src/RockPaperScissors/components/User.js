@@ -114,7 +114,6 @@ class User extends Component {
     render() {
         return (
             <div>
-               
                 {this.renderUser()}
                 {this.renderOponent()}
             </div>
